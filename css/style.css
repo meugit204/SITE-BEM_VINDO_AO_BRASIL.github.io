@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px 30px 30px;
+    align-items: center;
+    transition: all 5s;
+}
+
+header img {
+    max-width: 80px;
+    vertical-align: middle;
+}
+
+nav ul {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: black;
+    font-size: 1.3rem;
+    text-transform: uppercase
+}
+
+nav a:hover {
+    border-bottom: 2px solid #1e9f79;
+}
+
+@media (max-width:560px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 30px;
+    }
+
+    .box-sobre {
+        margin-top: -200px;
+    }
+
+    .box-sobre h1 {}
+}
+
+@media (max-width:450px) {
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+}
+
+.container {
+    clear: both;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.box-sobre {
+    width: 50%;
+    margin-top: 200px;
+}
+
+.box-sobre h1 {
+    color: #1e9f79;
+    font-size: 5rem;
+}
+
+.box-sobre h2 {
+    color: #c5c5c5;
+    font-size: 2rem;
+}
+
+.box-sobre p {
+    color: #d8d5dc;
+    max-width: 100%;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color: #1e9f79;
+    border: none;
+    border-radius: 20px;
+    margin: 40px 0 0 0px;
+}
+
+.btn a {
+    color: #fff;
+    display: block;
+}
+
+.social {
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.social ion-icon {
+    color: #c5c5c5;
+    font-size: 1.40rem;
+    padding: 0 3rem 0 0;
+}
+
+.box-img {
+    max-width: 100%;
+    width: 50%;
+}
+
+.box-img img {
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+@media(max-width:1130px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box-sobre {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+
+    .box-img {
+        width: 100%;
+        max-width: 100%;
+        margin-top: -10px;
+    }
+}
+
+footer {
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+footer p {
+    text-align: center;
+
+}
