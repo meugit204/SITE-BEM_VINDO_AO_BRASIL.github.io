@@ -1,5 +1,5 @@
 # SITE - BEM VINDO AO BRASIL 👨‍💻
-LINK DO SITE DESENVOLVIDO: https://meugit204.github.io/SITE-Food-Peek.github.io/
+LINK DO SITE DESENVOLVIDO: 
 
 DESCRIÇAO:
 
